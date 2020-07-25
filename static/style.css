@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=Grenze+Gotisch:wght@300&family=Lexend+Zetta&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+#logo{
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    margin: 0 14px;
+}
+#logo img{
+    height: 42px;
+    filter:invert(1);
+}
+#navbar{
+    background-color: rgba(39, 37, 34, 0.671);
+    padding: 13px 14px;
+    font-family: Grenze Gotisch;
+
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 9px 12px;
+    color: rgb(235, 229, 219);
+    font-size: 25px;
+}
+#navbar li a:hover{
+    color:black;
+    font-size: 30px;
+}
+.intro{
+    color: rgb(230, 156, 106);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    background-color: blue;
+    background: center / cover no-repeat url("/static/bg.jpg");
+    font-family: 'Lexend Zetta', sans-serif;
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+.intro div.small{
+    font-size: 28px;
+    padding: 5px;
+    color: rgba(216, 115, 57, 0.651);
+}
+.sponser{
+    height: 250px;
+    background-color: rgb(241, 134, 134);
+}
+.mission{
+    height: 309px;
+    margin: auto;
+    width: 67%;
+    display: block ;
+}
+.mission h2{
+    padding-top: 12px;
+    font-size: 37px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(226, 183, 126);
+    display: inline-block;
+    width: 28%;
+    margin: 20px 22px;
+    height: 210px;
+}
+.card h3{
+    text-align: center;
+    margin: 12px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 100px;
+    padding: 0 15px;
+}
+.card-img img{
+    height: inherit;
+}
+.content{
+    padding: 0px 7px;
+}
+.content p{
+    font-size: 13px;
+}
+.sponser h2{
+    padding-top: 12px;
+    font-size: 37px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+#sponsers{
+    height: 200px;
+    max-width: 1000px;
+    margin: auto;
+}
+.sp{
+    height: 140px;
+    margin: 17px 21px;
+}
+.footer{
+    display: flex;
+    font-size: 20px;
+    color: aliceblue;
+    height: 50px;
+    background-color:black;
+    align-items: center;
+    justify-content: center;
+}

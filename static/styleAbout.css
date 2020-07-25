@@ -1,0 +1,36 @@
+
+
+
+.about{
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin:18px 200px;
+    padding: 4px;
+}
+h1{
+    padding: 10px;
+    font-family: cursive;
+}
+p{
+    padding: 4px;
+    font-size: 20px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    margin: 10px ;
+}
+.content p{
+    font-size: 20px;
+    padding: 3px 3px 3px 5px;
+}
+img{
+    width: 200px;
+    height: 300px;
+    padding: 4px;
+}
+
